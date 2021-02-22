@@ -1,0 +1,270 @@
+.colors {
+  margin-top: 10%;
+  margin: auto;
+  width: 40%;
+  border: 3px solid #3F67DF;
+  padding: 10px;
+
+}
+
+.primary-color {
+  height: 30px;
+  width: 100px;
+  background-color: #3F67DF;
+  border-radius: 5px;
+}
+
+.secondary-color {
+  height: 30px;
+  width: 100px;
+  background-color: #EDF3FD;
+  border-radius: 5px;
+}
+
+.dark-gray {
+  height: 30px;
+  width: 100px;
+  background-color: #434A54;
+  border-radius: 5px;
+}
+
+.medium-gray {
+  height: 30px;
+  width: 100px;
+  background-color: #CCD1D9;
+  border-radius: 5px; 
+}
+
+.light-gray {
+height: 30px;
+width: 100px;
+background-color: #E6E9ED;
+border-radius: 5px;
+}
+
+.info-primary {
+  margin-top: 0px;
+  font-family: raleway;
+}
+
+hr.dashed {
+  border-top: 3px dashed #bbb;
+}
+
+h1 {
+  font-family: raleway;
+}
+
+.fonts, .buttons, .iconos, .forms, .lists {
+  font-family: raleway;
+  margin-top: 10%;
+  margin: auto;
+  width: 40%;
+  border: 3px solid #3F67DF;
+  padding: 10px;
+  text-align: center;
+}
+
+lead {
+  font-weight: bold;
+}
+
+blockquote {
+  font-style: italic;
+  color: #434A54;
+}
+
+ul li {
+  text-align: left;
+  font-style: oblique;
+  color: #434A54;
+  font-weight: bold;
+}
+
+ol li {
+  text-align: left;
+  color: #434A54;
+  
+}
+
+.button-primary, input[type=button], input[type=submit], input[type=reset] {
+  border-radius: 5px;
+  background-color: #3F67DF;
+  font-family: raleway;
+  font-weight: bold;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button-warning {
+  border-radius: 5px;
+  background-color: #F59109;
+  font-family: raleway;
+  font-weight: bold;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button-danger {
+  border-radius: 5px;
+  background-color: #F51E1B;
+  font-family: raleway;
+  font-weight: bold;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button-info {
+  border-radius: 5px;
+  background-color:#EDF3FD;
+  font-family: raleway;
+  font-weight: bold;
+  border: none;
+  color:#434A54;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button-success {
+  border-radius: 5px;
+  background-color:#1DD839;
+  font-family: raleway;
+  font-weight: bold;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.btn {
+  border: 2px solid black;
+  border-radius: 5px;
+  background-color: white;
+  color: black;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 5px;
+}
+
+.btn-primary {
+  border-color:#3F67DF;
+  color: #3F67DF;
+}
+
+.btn-primary:hover {
+  background-color:#3F67DF;
+  color: white;
+  font-weight: bold;
+}
+
+.btn-warning {
+  border-color:#F59109;
+  color: #F59109;
+}
+
+.btn-warning:hover {
+  background-color:#F59109;
+  color: white;
+  font-weight: bold;
+}
+
+.btn-danger {
+  border-color:#F51E1B;
+  color: #F51E1B;
+}
+
+.btn-danger:hover {
+  background-color:#F51E1B;
+  color: white;
+  font-weight: bold;
+}
+
+.btn-info {
+  border-color:#EDF3FD;
+  color: #434A54;
+}
+
+.btn-info:hover {
+  background-color:#EDF3FD;
+  color: #434A54;
+  font-weight: bold;
+}
+
+.btn-success {
+  border-color:#1DD839;
+  color:#1DD839;
+}
+
+.btn-success:hover {
+  background-color:#1DD839;
+  color: white;
+  font-weight: bold;
+}
+
+.lg {
+  width: 300px;
+}
+
+.sm {
+  width: 110px;
+  height: 40px;
+  border-radius: 20px;
+}
+
+.fas {
+  width: 50px;
+}
+
+input {
+  width: 100%;
+}
+
+input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid #CCD1D9;
+  border-radius: 4px;
+}
+
+select {
+  width: 100%;
+  padding: 16px 20px;
+  border: 1px dotted;
+  border-radius: 10px;
+  background-color: #f1f1f1;
+}
+
